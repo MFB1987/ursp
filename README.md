@@ -1,10 +1,10 @@
 # Research Project: Barriers to Higher-Density Housing near Transit in College Park, MD
 
+This analysis explores residential land use efficiency and zoning constraints within a half-mile walking radius of the College Park and Greenbelt transit stations. The focus is on identifying parcels—especially in Calvert Hills, Old Town, and North College Park—that are underutilized based on existing zoning allowances. The broader aim is to support policy recommendations that promote sustainable and equitable transit-oriented development.
+
 ## Research Question
 
-**What zoning, land use, and built environment factors limit opportunities for higher-density housing near the College Park MARC and Greenbelt Metro/MARC stations?**
-
-This analysis explores residential land use efficiency and zoning constraints within a half-mile walking radius of the College Park and Greenbelt transit stations. The focus is on identifying parcels—especially in Calvert Hills, Old Town, and North College Park—that are underutilized based on existing zoning allowances. The broader aim is to support policy recommendations that promote sustainable and equitable transit-oriented development.
+**To what extent is Prince George’s County and the City of College Park leveraging its transit assets to align with national TOD best practices and promote equitable, sustainable growth?**
 
 ## Approach
 
@@ -44,6 +44,24 @@ This analysis explores residential land use efficiency and zoning constraints wi
 
 ## File Structure
 
+├── data/
+│   ├── Metro_One_Mile_Buffer_Py*
+│   ├── Metro_Stations_Regional*
+│   ├── Municipal_Boundary*
+│   ├── Municipal_Boundary_Py*
+│   ├── Property_Info_Py**
+├── modules/
+│   ├── data_loader.py
+│   ├── density.py
+│   ├── preprocessing_py
+│   ├── summarizer_py
+│   ├── zoning_map_py
+├── main_analysis.ipynb
+├── ReadMe.md
+
+*Multiple files with the same base name but different extensions.
+**Download the necessary Property_Info_Py shapefiles and place them in the data/ folder: [https://drive.google.com/drive/folders/18SFvOqeQhXGY8KrIgw38ZvlkBIADTXlW?usp=drive_link]
+
 ## Data Sources
 ### - Prince George’s County GIS Open Data Portal: [https://gisdata.pgplanning.org/opendata/]
 ### - Zoning Ordinance (Density Allowances): [https://online.encodeplus.com/regs/princegeorgescounty-md/doc-viewer.aspx#secid-634]
@@ -53,7 +71,7 @@ This analysis explores residential land use efficiency and zoning constraints wi
 ### Install Required Libraries
 
 ### Data Setup:
-- Download the necessary Property_Info_Py shapefiles and place them in the data/ folder. [https://drive.google.com/drive/folders/18SFvOqeQhXGY8KrIgw38ZvlkBIADTXlW?usp=drive_link]
+- Download the necessary Property_Info_Py shapefiles and place them in the data/ folder.
 - Ensure all files are unzipped and in the correct format before running the notebook.
 
 ### Run the Notebook:
@@ -69,10 +87,6 @@ This analysis explores residential land use efficiency and zoning constraints wi
 
 ### Zoning map of parcels within a half-mile of College Park-U of Md and Greenbelt Metro stations.
 
-## Notes
-### - Be sure to use the correct CRS (EPSG: 2248 for PG County data or EPSG: 4326 for web-mapping).
-### - If files are too large for GitHub, store and link them through
-
 ---
 
-*This README was created for Exercise 04 of the URSP688Y course at the University of Maryland.*
+*This README was created for the URSP688Y course at the University of Maryland, College Park.*
