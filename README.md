@@ -50,7 +50,7 @@ college_park_TOD_analysis/
 │   ├── Metro_Stations_Regional.*
 │   ├── Municipal_Boundary.*
 │   ├── Municipal_Boundary_Py.*
-│   ├── Property_Info_Py.*
+│   ├── Property_Info_Py.**
 ├── modules/
 │   ├── data_loader.py
 │   ├── density.py
