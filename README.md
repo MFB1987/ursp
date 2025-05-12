@@ -62,7 +62,7 @@ This analysis explores residential land use efficiency and zoning constraints wi
 
 ## Outputs
 
-### Summary tables by neighborhood showing:
+### Summary of study area:
 - Number of underbuilt parcels.
 - Average utilization ratios.
 - Zoning types associated with underutilization.
