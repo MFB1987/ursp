@@ -43,7 +43,7 @@ This analysis explores residential land use efficiency and zoning constraints wi
 - Visualize patterns by neighborhood and across the half-mile transit buffers.
 
 ## File Structure
-
+```
 college_park_TOD_analysis/
 ├── data/
 │   ├── Metro_One_Mile_Buffer_Py.*
@@ -59,7 +59,7 @@ college_park_TOD_analysis/
 │   ├── zoning_map.py
 ├── main_analysis.ipynb
 ├── ReadMe.md
-
+```
 *Multiple files with the same base name but different extensions.
 **Download the necessary Property_Info_Py shapefiles and place them in the data/ folder: [https://drive.google.com/drive/folders/18SFvOqeQhXGY8KrIgw38ZvlkBIADTXlW?usp=drive_link]
 
