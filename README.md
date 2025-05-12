@@ -44,18 +44,19 @@ This analysis explores residential land use efficiency and zoning constraints wi
 
 ## File Structure
 
+college_park_TOD_analysis/
 ├── data/
-│   ├── Metro_One_Mile_Buffer_Py*
-│   ├── Metro_Stations_Regional*
-│   ├── Municipal_Boundary*
-│   ├── Municipal_Boundary_Py*
-│   ├── Property_Info_Py**
+│   ├── Metro_One_Mile_Buffer_Py.*
+│   ├── Metro_Stations_Regional.*
+│   ├── Municipal_Boundary.*
+│   ├── Municipal_Boundary_Py.*
+│   ├── Property_Info_Py.*
 ├── modules/
 │   ├── data_loader.py
 │   ├── density.py
-│   ├── preprocessing_py
-│   ├── summarizer_py
-│   ├── zoning_map_py
+│   ├── preprocessing.py
+│   ├── summarizer.py
+│   ├── zoning_map.py
 ├── main_analysis.ipynb
 ├── ReadMe.md
 
