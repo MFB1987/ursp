@@ -59,10 +59,10 @@ college_park_TOD_analysis/
 │   ├── zoning_map.py
 ├── main_analysis.ipynb
 ├── ReadMe.md
-
+```
 #### *Multiple files with the same base name but different extensions.
 #### **Download the necessary Property_Info_Py shapefiles and place them in the data/ folder: [https://drive.google.com/drive/folders/18SFvOqeQhXGY8KrIgw38ZvlkBIADTXlW?usp=drive_link]
-```
+
 
 ## Data Sources
 ### - Prince George’s County GIS Open Data Portal: [https://gisdata.pgplanning.org/opendata/]
