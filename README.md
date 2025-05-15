@@ -91,4 +91,4 @@ college_park_TOD_analysis/
 
 ---
 
-*This README was created for the URSP688Y course at the University of Maryland, College Park.*
+*This README was created for the URSP 688Y course at the University of Maryland, College Park.*
