@@ -28,3 +28,12 @@ def summarize(gdf, name, assign_func):
     print(f" - Underutilized Parcels: {underutilized}")
     print(f" - Underutilization Ratio: {underutilization_ratio:.2f}")
     print(zone_summary)
+
+    # Count subsidized (LIHTC Section 42) parcels
+    if 'LAND_USE_D' in gdf.columns:
+        gdf['LAND_USE_D'] = gdf['LAND_USE_D'].str.upper()
+        lihtc_mask = gdf['LAND_USE_D'].str.contains('SUBSIDIZED HOUSING SECTION 42', na=False)
+        num_lihtc = lihtc_mask.sum()
+        print(f" - Section 42 (LIHTC) Parcels: {num_lihtc}")
+
+

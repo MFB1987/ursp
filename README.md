@@ -1,10 +1,10 @@
 # Research Project: Barriers to Higher-Density Housing near Transit in College Park, MD
 
-This analysis explores residential land use efficiency and zoning constraints within a half-mile walking radius of the College Park and Greenbelt transit stations. The focus is on identifying parcels—especially in Calvert Hills, Old Town, and North College Park—that are underutilized based on existing zoning allowances. The broader aim is to support policy recommendations that promote sustainable and equitable transit-oriented development.
+This analysis explores residential land use efficiency and zoning constraints within a half-mile walking radius of the College Park and Greenbelt transit stations. The focus is on identifying parcels—especially in Calvert Hills, Old Town, and North College Park—that are underutilized based on built density and maximum density zoning allowances. The aim of this project is to generate policy recommendations that promote sustainable and equitable transit-oriented development.
 
 ## Research Question
 
-**To what extent is Prince George’s County and the City of College Park leveraging its transit assets to align with national TOD best practices and promote equitable, sustainable growth?**
+**To what extent are Prince George’s County and the City of College Park leveraging their transit assets to align with equitable TOD best practices?**
 
 ## Approach
 
